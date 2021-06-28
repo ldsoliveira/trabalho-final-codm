@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Conversas</string>
+    <string name="username">{USERNAME}</string>
+    <string name="user_photo">USER_PHOTO</string>
+    <string name="age_anos">{AGE}</string>
+    <string name="age_anos_text">Anos</string>
+    <string name="gender">{GENDER}</string>
+    <string name="sexual_orientation">{SEXUAL_ORIENTATION}</string>
+    <string name="city">{CITY}</string>
+    <string name="like_count">Te curtiram</string>
+    <string name="conversas">Conversas</string>
+    <string name="profile_username">{ USERNAME }</string>
+    <string name="profile_city">{ CITY }</string>
+    <string name="profile_gender">{ GENDER }</string>
+    <string name="profile_sexual_orientation">{SEXUAL ORIENTATION}</string>
+    <string name="profile_age">{ AGE }</string>
+    <string name="user_count">0</string>
+</resources>

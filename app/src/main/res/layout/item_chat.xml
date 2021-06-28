@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:backgroundTint="@android:color/darker_gray">
+
+    <ImageView
+        android:id="@+id/chat_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/user_photo"
+        android:src="@mipmap/ic_launcher_round"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/chat_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/username"
+        app:layout_constraintLeft_toRightOf="@id/chat_image"
+        app:layout_constraintTop_toTopOf="@id/chat_image" />
+
+    <TextView
+        android:id="@+id/chat_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/age_anos"
+        app:layout_constraintLeft_toRightOf="@id/chat_username"
+        app:layout_constraintTop_toTopOf="@id/chat_username" />
+
+    <TextView
+        android:id="@+id/chat_age_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/age_anos_text"
+        app:layout_constraintLeft_toRightOf="@id/chat_age"
+        app:layout_constraintTop_toTopOf="@id/chat_username" />
+
+    <TextView
+        android:id="@+id/chat_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/gender"
+        app:layout_constraintLeft_toRightOf="@id/chat_image"
+        app:layout_constraintTop_toBottomOf="@id/chat_username" />
+
+    <TextView
+        android:id="@+id/chat_sexual_orientation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/sexual_orientation"
+        app:layout_constraintLeft_toRightOf="@id/chat_gender"
+        app:layout_constraintTop_toBottomOf="@id/chat_username" />
+
+    <TextView
+        android:id="@+id/chat_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/city"
+        app:layout_constraintLeft_toRightOf="@id/chat_image"
+        app:layout_constraintTop_toBottomOf="@id/chat_gender" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
